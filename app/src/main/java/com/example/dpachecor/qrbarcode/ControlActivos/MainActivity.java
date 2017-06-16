@@ -44,7 +44,7 @@ public class MainActivity extends AppCompatActivity {
             startActivityForResult(intent, 0);
         } catch (ActivityNotFoundException anfe) {
             //on catch, show the download dialog
-            showDialog(MainActivity.this, "No Scanner Found", "Download a scanner code activity?", "Yes", "No").show();
+            showDialog(MainActivity.this, "Scaner no encontrado", "Descargar el scanner code activity?", "Si", "No").show();
         }
     }
 
@@ -57,7 +57,7 @@ public class MainActivity extends AppCompatActivity {
             startActivityForResult(intent, 0);
         } catch (ActivityNotFoundException anfe) {
             //on catch, show the download dialog
-            showDialog(MainActivity.this, "No Scanner Found", "Download a scanner code activity?", "Yes", "No").show();
+            showDialog(MainActivity.this, "Scaner no encontrado", "Descargar el scanner code activity?", "Si", "No").show();
         }
     }
 

@@ -19,14 +19,17 @@ public class MiConexion extends SQLiteOpenHelper{
     @Override
     public void onCreate(SQLiteDatabase sqLiteDatabase) {
 
-        /*String TABLA="create table activo(idactivo text primary key,nombre text," +
-                                            "tipo number, respondable text,proveedor text,marca number," +
-                                            "modelo number, serie text,placa text,ubicacion text," +
-                                            "fecha_compra date,valor_comprar number,fecha_registro date," +
+        /*String MARCA = "create table marca(idmarca number primary key autoincrement, nomMarca text)";*/
+
+
+        String TABLA="create table activo(idactivo text primary key,nombre text not null," +
+                                            "tipo num, responsable text,proveedor text,marca num," +
+                                            "modelo num, serie text,stock num,placa text,ubicacion text," +
+                                            "fecha_compra date,valor_comprar real,fecha_registro date," +
                                             "aseguradora text,agente text,deptSolic text,nombSolic text," +
                                             "destino text,fechasalida date,condiciones text," +
                                             "FECHA_HORA_SINC DATETIME);";
-        sqLiteDatabase.execSQL(TABLA);*/
+        sqLiteDatabase.execSQL(TABLA);
 
     }
     @Override
