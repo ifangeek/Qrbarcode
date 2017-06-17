@@ -1,4 +1,4 @@
-package com.example.dpachecor.qrbarcode;
+package com.example.dpachecor.qrbarcode.Data;
 
 import android.content.Context;
 import android.database.sqlite.SQLiteDatabase;

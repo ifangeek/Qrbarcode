@@ -1,6 +1,4 @@
-package com.example.dpachecor.qrbarcode.Data.tablas;
-
-import java.security.PublicKey;
+package com.example.dpachecor.qrbarcode.Data.Tablas;
 
 /**
  * Created by dpachecor on 16/06/2017.
